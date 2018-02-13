@@ -1,0 +1,86 @@
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: hsl(200, 5%, 95%);
+  color: black;
+  font-family: arial;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+
+h3 {
+  text-align: center;
+  margin-top: 35px;
+}
+
+h5 {
+  text-align: center;
+}
+
+nav {
+  background-color: black;
+  position: fixed;
+  display: block;
+  width: 100%;
+  opacity: 0.9;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 4px;
+}
+
+nav ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0 0.5em;
+  width: 100%;
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: slategrey;
+}
+
+.main_content {
+    padding-top: 4.7em;
+}
+
+
+.bannerish {
+display: flex;
+justify-content: center;
+  }
+
+#rock_image {
+  width: 12%;
+  padding: 20px;
+}
+
+#paper_image {
+  width: 15%;
+  margin-left: 25px;
+  padding: 20px;
+}
+
+#scissors_image {
+  width: 20%;
+  padding: 20px 15px 20px 5px;
+}
